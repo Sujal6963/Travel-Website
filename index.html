@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+<header>
+
+    <div id="menu-bar" class="fas fa-bars">
+       
+    </div>
+    <a href="#" class="logo"><span>GHUMO</span>.com</a>
+    <nav class="nav-bar">
+        <a href="#Home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here ...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+
+<!-- Log in form -->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" class="btn" value="login now">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me ?</label>
+        <p>Foeget passwor? <a href="#">click here</a></p>
+        <p>Don't have any account <a href="#">Register now</a></p>
+    </form>
+</div>
+
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adventure in worthwile</h3>
+        <p>Discover new Places with us, adventure awaits</p>
+        <a href="#" class="btn">Discover More</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="/images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="/images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="/images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="/images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="/images/vid-5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="/images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="/images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="input-box">
+                <h3>Where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="input-box">
+                <h3>How many</h3>
+                <input type="number" placeholder="how many guests">
+            </div>
+            <div class="input-box">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="input-box">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Book Now">
+        </form>
+    </div>
+</section>
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/images/p-1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                <p> A vibrant city of dreams, culture, and endless opportunities</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹12,000 <span>₹15,000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/p-2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Rishikesh</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹7,000 <span>$11,000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/p-3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Ladakh</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹15,000 <span>$20,000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/p-4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Spiti</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹14,000 <span>$18,000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/p-5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Kedarnath</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹13,000 <span>₹18,000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/p-6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Varkala</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia?</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">₹9,000 <span>₹15,000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotels</h3>
+            <p>Comfortable, budget-friendly hotels offering clean rooms, free Wi-Fi, convenient locations, and exceptional service for travelers.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Foods and drinks</h3>
+            <p>Delicious dishes and refreshing beverages served with quality ingredients, inviting flavors, and satisfying variety for every palate.</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety guide</h3>
+            <p>Comprehensive safety guide ensuring peace of mind with essential tips, practical advice, and proactive measures for a secure environment.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around the world</h3>
+            <p>Explore diverse cultures, breathtaking landscapes, and vibrant cities across continents, offering enriching experiences and global perspectives.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest travel</h3>
+            <p>Efficient and swift travel options providing seamless journeys, quick connections, and expedited routes for time-conscious travelers.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>Exciting adventures offering adrenaline-pumping activities, breathtaking scenery, and unforgettable experiences for thrill-seeking explorers.</p>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+       
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="/images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Pangong</h3>
+                <a href="https://www.google.com/search?q=pangong&sca_esv=9980f8d855368397&sca_upv=1&tbm=isch&sxsrf=ADLYWILQfrZi6kIAiLQa3X8TmnV8idywZQ%3A1721251685329&source=hp&biw=1536&bih=742&ei=ZTeYZr2gEfiN4-EP4ICJ2Ac&iflsig=AL9hbdgAAAAAZphFdaoIcJJdUBzhgumdYkMbD14qRB76&oq=pang&gs_lp=EgNpbWciBHBhbmcqAggBMgQQIxgnMgQQIxgnMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgARImhRQnANYjghwAXgAkAEAmAGiAaAB9QSqAQMwLjS4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ5gCBaAChgWoAgrCAgcQIxgnGOoCwgILEAAYgAQYsQMYgwHCAg4QABiABBixAxiDARiKBZgDBZIHAzEuNKAHgx0&sclient=img" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Munnar</h3>
+                <a href="https://www.google.com/search?q=munnar&sca_esv=9980f8d855368397&sca_upv=1&tbm=isch&sxsrf=ADLYWIKuYS0AFF-Kl95pBEC54sIX3Ae-HA%3A1721251856337&source=hp&biw=1536&bih=742&ei=EDiYZu3fEtKu4-EP4KuE4Ak&iflsig=AL9hbdgAAAAAZphGIL28Zj21Yrb3dYH0-6KDfvFi-dn_&ved=0ahUKEwjtp9vrgq-HAxVS1zgGHeAVAZwQ4dUDCA8&uact=5&oq=munnar&gs_lp=EgNpbWciBm11bm5hcjIEECMYJzIIEAAYgAQYsQMyCBAAGIAEGLEDMgsQABiABBixAxiDATIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEi_C1DVBFjeCnAHeACQAQCYAQCgAQCqAQC4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ5gCB6ACDqgCCsICBxAjGCcY6gLCAgQQABgDwgIOEAAYgAQYsQMYgwEYigWYAwKSBwE3oAcA&sclient=img" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Kasol</h3>
+                <a href="https://www.google.com/search?q=kasol&tbm=isch&ved=2ahUKEwixgPf4gq-HAxWw7zgGHYW1GKMQ2-cCegQIABAA&oq=kasol&gs_lp=EgNpbWciBWthc29sMgQQIxgnMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESP4YUNQGWIIXcAJ4AJABAJgBxQGgAeUKqgEDMC44uAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgsQABiABBixAxiDAcICChAAGIAEGEMYigXCAg0QABiABBixAxhDGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICDhAAGIAEGLEDGIMBGIoFiAYB&sclient=img&ei=LDiYZrG6AbDf4-EPhevimAo&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Khajjiar</h3>
+                <a href="https://www.google.com/search?q=khajjiar&tbm=isch&ved=2ahUKEwir6cmNg6-HAxW--jgGHS3DODIQ2-cCegQIABAA&oq=khajjiar&gs_lp=EgNpbWciCGtoYWpqaWFyMgQQIxgnMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESIkZUKYJWJgScAB4AJABAJgBugGgAc0LqgEDMC45uAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAggQABiABBixA8ICChAAGIAEGEMYigXCAgsQABiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFiAYB&sclient=img&ei=VziYZuvhE7714-EPrYbjkQM&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Musoorie</h3>
+                <a href="https://www.google.com/search?q=musoorie&tbm=isch&ved=2ahUKEwirso6dg6-HAxVZxjgGHR-BAagQ2-cCegQIABAA&oq=musoorie&gs_lp=EgNpbWciCG11c29vcmllMgQQIxgnMgUQABiABDIFEAAYgAQyBRAAGIAEMgkQABiABBgYGAoyCRAAGIAEGBgYCjIJEAAYgAQYGBgKMgkQABiABBgYGAoyCRAAGIAEGBgYCjIJEAAYgAQYGBgKSPkRUPoGWMgQcAB4AJABAJgBvQGgAdQLqgEDMC45uAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBhDGIoFwgIEEAAYA8ICDhAAGIAEGLEDGIMBGIoFwgINEAAYgAQYsQMYQxiKBcICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwGIBgE&sclient=img&ei=dziYZuuaN9mM4-EPn4KGwAo&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Chandra Taal</h3>
+                <a href="https://www.google.com/search?q=chandrataal&tbm=isch&ved=2ahUKEwia6J-rg6-HAxVE5TgGHYXXCTIQ2-cCegQIABAA&oq=chan&gs_lp=EgNpbWciBGNoYW4qAggAMgQQIxgnMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMg4QABiABBixAxiDARiKBTIOEAAYgAQYsQMYgwEYigUyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQMyCBAAGIAEGLEDSNAYUKYHWOELcAB4AJABAJgBuAGgAb8GqgEDMC41uAEByAEA-AEBigILZ3dzLXdpei1pbWfCAgYQABgHGB7CAgkQABiABBgYGAqIBgE&sclient=img&ei=lTiYZtrJIcTK4-EPha-nkAM&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Gulmarg</h3>
+                <a href="https://www.google.com/search?q=gulmarg&tbm=isch&ved=2ahUKEwilnPm4g6-HAxXW8jgGHXAdKfAQ2-cCegQIABAA&oq=gulmarg&gs_lp=EgNpbWciB2d1bG1hcmcyBBAjGCcyBBAjGCcyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDAUjsS1DYCVjSSnADeACQAQCYAcMBoAHcDaoBBDAuMTC4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ6gCCsICCRAAGIAEGBgYCsICBBAAGAPCAg4QABiABBixAxiDARiKBcICBxAjGCcY6gKIBgE&sclient=img&ei=sjiYZqX7ENbl4-EP8LqkgQ8&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Udaipur</h3>
+                <a href="https://www.google.com/search?q=udaipur&tbm=isch&ved=2ahUKEwj6rLfKg6-HAxVE5TgGHZzOCkEQ2-cCegQIABAA&oq=udai&gs_lp=EgNpbWciBHVkYWkqAggAMgQQIxgnMggQABiABBixAzILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyCBAAGIAEGLEDSJgUUP8GWJ4McAB4AJABAJgBwwGgAe0GqgEDMC41uAEByAEA-AEBigILZ3dzLXdpei1pbWfCAg4QABiABBixAxiDARiKBcICBBAAGAPCAgoQABiABBhDGIoFiAYB&sclient=img&ei=1jiYZvrpOcTK4-EPnJ2riAQ&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Pahalgam</h3>
+                <a href="https://www.google.com/search?q=pahalgam&tbm=isch&ved=2ahUKEwi_jIXXg6-HAxW3yDgGHd6GDsgQ2-cCegQIABAA&oq=pahalgam&gs_lp=EgNpbWciCHBhaGFsZ2FtMgQQIxgnMgQQIxgnMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIkBtQxgZYqRZwAXgAkAEAmAG9AaAB4guqAQMwLjm4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ6gCCsICCBAAGIAEGLEDwgIQEAAYgAQYsQMYQxiDARiKBcICBxAjGCcY6gLCAgoQABiABBhDGIoFwgILEAAYgAQYsQMYgwHCAgQQABgDiAYB&sclient=img&ei=8TiYZv_PF7eR4-EP3o26wAw&bih=742&biw=1536" target="_blank" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="reviews">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+
+
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/images/pic1.png" alt="">
+                    <h3>Laxmi Sharma</h3>
+                    <p>GHUMO.COM impressed me in every aspect. Its user-friendly layout, extensive travel choices, great deals, top-notch customer service, and detailed travel guides make it the ideal site for all travel arrangements. I strongly recommend GHUMO.COM to anyone planning their next journey. It's the best platform for easy and pleasant travel planning.</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/images/pic2.png" alt="">
+                    <h3>Chunnu Goli</h3>
+                    <p>In summary, GHUMO.COM exceeded my expectations in every way. Its user-friendly interface, comprehensive options, competitive pricing, stellar customer service, and valuable travel guides make it my go-to platform for all my travel needs. I wholeheartedly recommend GHUMO.COM to anyone looking to plan their next adventure. It’s a one-stop-shop for all.</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/images/pic3.png" alt="">
+                    <h3>Dolly Nagpur</h3>
+                    <p>In summary, GHUMO.COM is outstanding in every way. The user-friendly design, wide array of travel options, competitive deals, exceptional support, and thorough travel guides make it my preferred choice for booking trips. I wholeheartedly recommend GHUMO.COM to everyone. It ensures a seamless and pleasant travel planning process.</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/images/pic4.png" alt="">
+                    <h3>Jethalal Gada</h3>
+                    <p>In summary, GHUMO.COM surpassed all my expectations. Its smooth interface, varied travel packages, attractive pricing, superb customer service, and extensive travel guides make it the ideal travel site. I highly recommend GHUMO.COM for anyone arranging their next trip. It's the best platform for hassle-free and enjoyable travel planning</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="/images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="message.."></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+
+<section class="brand-container">
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="/images/6.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>About us</h3>
+            <p>"Welcome to Ghumo.com, where we specialize in crafting unforgettable travel experiences. With expertly planned packages and personalized service, we ensure seamless journeys and unforgettable memories worldwide."</p>
+        </div>
+        <div class="box">
+            <h3>Branch locations</h3>
+            <a href="#">Mumbai</a>
+            <a href="#">Delhi</a>
+            <a href="#">Shimla</a>
+            <a href="#">Chennai</a>
+            <a href="#">Indore</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Book</a>
+            <a href="#">Packages</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">TripTo</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+        </div>
+        
+    </div>
+
+</section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+    
+    
+</body>
+</html>
